@@ -23,6 +23,14 @@ export const Card = styled.div`
   }
 `
 
+export const LinkButton = styled.a`
+  color: ${(props) => props.theme.white};
+
+  @media (max-width: 429px) {
+    width: 100%;
+  }
+`
+
 export const CardContainer = styled.div`
   display: flex;
   flex-direction: column;

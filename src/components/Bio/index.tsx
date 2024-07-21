@@ -1,5 +1,4 @@
-import { openEnglishNextLevel } from "../../utils/sendFunctions";
-import { BioContent, Content, Title, NameTitle, Button, ButtonContainer, Footer, PhotoLorena, Image } from "./styles";
+import { BioContent, Content, Title, NameTitle, Button, ButtonContainer, Footer, PhotoLorena, Image, LinkButton } from "./styles";
 
 export function Bio() {
 
@@ -24,7 +23,9 @@ export function Bio() {
             verdadeiramente enriquecedora e transformadora.
           </p>
           <ButtonContainer>
-            <Button onClick={() => openEnglishNextLevel()}>QUERO ME JUNTAR À LORENA!</Button>
+            <LinkButton href="https://english-next-level.vercel.app" target="_blank">
+              <Button>QUERO ME JUNTAR À LORENA!</Button>
+            </LinkButton>
           </ButtonContainer>
         </BioContent>
         <PhotoLorena>

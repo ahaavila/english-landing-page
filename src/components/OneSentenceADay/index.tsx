@@ -1,20 +1,21 @@
-import { openOneSentenceADay } from "../../utils/sendFunctions";
-import { Card, CardContainer, Image, PBold, PSmall, PExtraSmall, ListBold } from "./styles";
+import { Card, CardContainer, Image, PBold, PSmall, PExtraSmall, ListBold, LinkButton } from "./styles";
 
 export function OneSentenceADay() {
   return (
-    <Card onClick={() => openOneSentenceADay()}>
+    <Card>
       <Image src="./image1.png" alt="Lorena One Sentence a Day" />
-      <CardContainer>
-        <PSmall>Conheça meu projeto gratuito</PSmall>
-        <PBold>ONE SENTENCE A DAY!</PBold>
-        <PExtraSmall>Uma frase em inglês</PExtraSmall>
-        <PExtraSmall>todo dia, durante 60 dias!</PExtraSmall>
-        <ul>
-          <ListBold>material para download</ListBold>
-          <ListBold>videoaula</ListBold>
-        </ul>
-      </CardContainer>
+      <LinkButton href="https://one-sentence-a-day.vercel.app/" target="_blank">
+        <CardContainer>
+          <PSmall>Conheça meu projeto gratuito</PSmall>
+          <PBold>ONE SENTENCE A DAY!</PBold>
+          <PExtraSmall>Uma frase em inglês</PExtraSmall>
+          <PExtraSmall>todo dia, durante 60 dias!</PExtraSmall>
+          <ul>
+            <ListBold>material para download</ListBold>
+            <ListBold>videoaula</ListBold>
+          </ul>
+        </CardContainer>
+      </LinkButton>
     </Card>
   )
 }

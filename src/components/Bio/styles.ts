@@ -53,6 +53,10 @@ export const ButtonContainer = styled.div`
   justify-content: center;
 `
 
+export const LinkButton = styled.a`
+  width: 100%;
+`
+
 export const Button = styled.button`
   width: 80%;
   color: ${(props) => props.theme.red};

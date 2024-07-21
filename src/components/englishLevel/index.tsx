@@ -1,10 +1,10 @@
-import { openEnglishNextLevel } from "../../utils/sendFunctions";
-import { Card, CardContainer, Image, PBold, ListBold, Ul } from "./styles";
+import { Card, CardContainer, Image, PBold, ListBold, Ul, LinkButton } from "./styles";
 
 export function EnglishLevel() {
   return (
     <>
-      <Card onClick={() => openEnglishNextLevel()}>
+      <Card>
+        <LinkButton href="https://english-next-level.vercel.app" target="_blank">
         <CardContainer>
           <PBold>CURSO DE INGLÊS PARA NÍVEL ZERO OU BÁSICO.</PBold>
           <Ul>
@@ -14,6 +14,7 @@ export function EnglishLevel() {
             <ListBold>suporte para tirar dúvidas.</ListBold>
           </Ul>
         </CardContainer>
+        </LinkButton>
         <Image src="./image2.png" alt="Lorena One Sentence a Day" />
       </Card>
     </>

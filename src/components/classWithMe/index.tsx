@@ -1,0 +1,21 @@
+import { openWhatsapp } from "../../utils/sendFunctions";
+import { Card, CardContainer, Image, PBold, ListBold } from "./styles";
+
+const WHATSAPP_NUMBER = '+351921151527'
+const WHATSAPP_MESSAGE = 'Olá, gostaria de saber mais sobre as aulas avançadas de inglês.'
+
+export function ClassWithMe() {
+
+  return (
+    <Card onClick={() => openWhatsapp(WHATSAPP_MESSAGE, WHATSAPP_NUMBER)}>
+      <Image src="./image3.jpeg" alt="Lorena One Sentence a Day" />
+      <CardContainer>
+        <PBold>AULA COMIGO!</PBold>
+        <ul>
+          <ListBold>aulas de conversação.</ListBold>
+          <ListBold>níveis intermediário e avançado.</ListBold>
+        </ul>
+      </CardContainer>
+    </Card>
+  )
+}

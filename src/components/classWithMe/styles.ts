@@ -1,0 +1,42 @@
+import styled from "styled-components";
+
+export const Card = styled.div`
+  width: 85%;
+  height: 10rem;
+  background-color: ${(props) => props.theme.red};
+  color: ${(props) => props.theme.white};
+  border-radius: 1.5rem;
+  cursor: pointer;
+
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+
+  margin: 0 auto;
+
+  @media (max-width: 429px) {
+    width: 90%;
+  }
+`
+
+export const CardContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+`
+
+export const PBold = styled.p`
+  font-weight: bold;
+  font-size: 1.2rem;
+`
+
+export const ListBold = styled.li`
+  font-size: 1.2rem;
+`
+
+export const Image = styled.img`
+  height: 100%;
+  transform: scaleX(-1);
+  border-radius: 1rem;
+`

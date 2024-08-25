@@ -1,4 +1,4 @@
-import { Card, CardContainer, Image, PBold, ListBold, Ul, LinkButton } from "./styles";
+import { Card, CardContainer, Image, PBold, ListBold, Ul, LinkButton, LogoImage } from "./styles";
 
 export function EnglishLevel() {
   return (
@@ -6,7 +6,8 @@ export function EnglishLevel() {
       <Card>
         <LinkButton href="https://english-next-level.vercel.app" target="_blank">
         <CardContainer>
-          <PBold>CURSO DE INGLÊS PARA NÍVEL ZERO OU BÁSICO.</PBold>
+          <LogoImage src="./logo.png" alt="" />
+          <PBold>INGLÊS PARA INICIANTES</PBold>
           <Ul>
             <ListBold>videoaulas,</ListBold>
             <ListBold>material para download,</ListBold>

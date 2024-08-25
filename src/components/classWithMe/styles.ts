@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Card = styled.div`
-  width: 85%;
-  height: 10rem;
+  min-width: 350px;
+  height: 11rem;
   background-color: ${(props) => props.theme.red};
   color: ${(props) => props.theme.white};
   border-radius: 1.5rem;
@@ -12,10 +12,13 @@ export const Card = styled.div`
   gap: 2rem;
   align-items: center;
 
-  margin: 0 auto;
-
   @media (max-width: 429px) {
     width: 90%;
+    gap: 1rem;
+  }
+
+  @media (max-width: 800px) {
+    margin: 0 auto;
   }
 `
 
@@ -36,11 +39,12 @@ export const CardContainer = styled.div`
 
 export const PBold = styled.p`
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1rem;
 `
 
 export const ListBold = styled.li`
-  font-size: 1.2rem;
+  font-size: 0.9rem;
+  font-weight: bold;
 `
 
 export const Image = styled.img`

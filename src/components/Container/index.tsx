@@ -19,19 +19,19 @@ export function Container() {
         viewport === USER_AGENT.DESKTOP ?
           <>
             <Separator>
-              <Block>PROJETO</Block>
-              <OneSentenceADay />
-            </Separator><Separator>
               <Block>CURSO</Block>
               <EnglishLevel />
+            </Separator><Separator>
+              <Block>PROJETO</Block>
+              <OneSentenceADay />
             </Separator><Separator>
               <Block>AULAS</Block>
               <ClassWithMe />
             </Separator>
           </> :
           <>
-            <OneSentenceADay />
             <EnglishLevel />
+            <OneSentenceADay />
             <ClassWithMe />
           </>
       }

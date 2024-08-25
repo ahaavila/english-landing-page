@@ -12,8 +12,9 @@ export function ClassWithMe() {
         <CardContainer>
           <PBold>AULA COMIGO!</PBold>
           <ul>
-            <ListBold>aulas de conversação.</ListBold>
-            <ListBold>níveis intermediário e avançado.</ListBold>
+            <ListBold>para todos os níveis,</ListBold>
+            <ListBold>aulas de conversação,</ListBold>
+            <ListBold>planejamento de estudos.</ListBold>
           </ul>
         </CardContainer>
       </LinkButton>

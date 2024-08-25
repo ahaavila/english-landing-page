@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Card = styled.div`
   width: 85%;
-  height: 10rem;
+  height: 11rem;
   background-color: ${(props) => props.theme.grey};
   color: ${(props) => props.theme.darkBlue};
   border-radius: 1.5rem;
@@ -12,7 +12,7 @@ export const Card = styled.div`
   gap: 1rem;
   align-items: flex-end;
 
-  margin: 3rem auto;
+  margin: 0 auto;
 
   @media (min-width: 800px) {
     margin: 0;
@@ -36,7 +36,7 @@ export const LinkButton = styled.a`
 export const CardContainer = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  /* gap: 0.5rem; */
   align-items: center;
   margin-bottom: 0.5rem;
 `
@@ -69,4 +69,8 @@ export const ListBold = styled.li`
 
 export const Image = styled.img`
   height: 120%;
+`
+
+export const LogoImage = styled.img`
+  width: 70%;
 `

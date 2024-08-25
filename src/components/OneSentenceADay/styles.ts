@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Card = styled.div`
   width: 90%;
-  height: 10rem;
+  height: 11rem;
   background-color: ${(props) => props.theme.darkBlue};
   color: ${(props) => props.theme.white};
   border-radius: 1.5rem;
@@ -21,6 +21,10 @@ export const Card = styled.div`
   @media (max-width: 429px) {
     width: 90%;
   }
+
+  @media (max-width: 800px) {
+    margin: 3rem auto;
+  }
 `
 
 export const LinkButton = styled.a`
@@ -36,7 +40,11 @@ export const CardContainer = styled.div`
   flex-direction: column;
   gap: 0.5rem;
   align-items: center;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
+
+  @media (max-width: 800px) {
+    gap: 0.25rem;
+  }
 `
 
 export const PSmall = styled.p`
@@ -44,6 +52,7 @@ export const PSmall = styled.p`
 `
 
 export const PBold = styled.p`
+  font-size: 0.845rem;
   font-weight: bold;
 `
 

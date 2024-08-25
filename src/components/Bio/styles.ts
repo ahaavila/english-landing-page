@@ -33,6 +33,8 @@ export const BioContent = styled.div`
 `
 
 export const Title = styled.h2`
+  font-family: 'League Spartan', sans-serif;
+  font-weight: bold;
   margin-bottom: 1rem;
 
   @media (max-width: 800px) {
@@ -44,7 +46,7 @@ export const NameTitle = styled.h3`
   margin-bottom: 2rem;
 
   @media (max-width: 800px) {
-    font-size: 1rem;
+    font-size: 0.875rem;
   }
 `
 

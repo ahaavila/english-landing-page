@@ -1,7 +1,7 @@
 import { Card, CardContainer, Image, PBold, ListBold, LinkButton } from "./styles";
 
-const WHATSAPP_NUMBER = '+351921151527'
-const WHATSAPP_MESSAGE = 'Olá, gostaria de saber mais sobre as aulas avançadas de inglês.'
+const WHATSAPP_NUMBER = '+351912913967'
+const WHATSAPP_MESSAGE = `Olá!%0A%0AObrigada pelo seu contato.%0A%0APosso não conseguir responder rapidamente, mas me diga um pouco sobre qual é a sua demanda. Se quiser pode enviar um áudio.%0A%0A☺️😉`
 
 export function ClassWithMe() {
 
